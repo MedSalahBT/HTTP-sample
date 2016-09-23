@@ -9,6 +9,8 @@ import (
 const addr = "localhost:12345"
 
 func main() {
+
+	fmt.Printf("new modification")
 	mux := http.NewServeMux()
 	handler := &myserver.MyHandler{}
 	mux.Handle("/favicon.ico", http.NotFoundHandler())
