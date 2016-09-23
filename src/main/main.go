@@ -10,6 +10,7 @@ const addr = "localhost:12345"
 
 func main() {
 
+	fmt.Prindfsq
 	fmt.Printf("new modification")
 	mux := http.NewServeMux()
 	handler := &myserver.MyHandler{}
